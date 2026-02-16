@@ -7,9 +7,9 @@ import Profile from "./pages/Profile";
 function App() {
   return (
     <div>
-      <nav>
-        <Link to="/">Home</Link> |<Link to="/about">About Me</Link> |
-        <Link to="/projects">Projects</Link> |<Link to="/contact">Contact</Link>{" "}
+      <nav> 
+        <Link to="/">Home</Link> |<Link to="/about">About</Link> |
+        <Link to="/projects">Projects</Link> |<Link to="/contact">Contact</Link>{"  main
         |<Link to="/profile">Profile</Link>
       </nav>
       <Routes>
