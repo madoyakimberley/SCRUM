@@ -7,10 +7,10 @@ import Profile from "./pages/Profile";
 function App() {
   return (
     <div>
-      <nav> 
+      <nav>
         <Link to="/">Home</Link> |<Link to="/about">About</Link> |
-        <Link to="/projects">Projects</Link> |<Link to="/contact">Contact</Link>{"  main
-        |<Link to="/profile">Profile</Link>
+        <Link to="/projects">Projects</Link> |<Link to="/contact">Contact</Link>
+        {""}|<Link to="/profile">Profile</Link>
       </nav>
       <Routes>
         <Route path="/" element={<Home />} />
